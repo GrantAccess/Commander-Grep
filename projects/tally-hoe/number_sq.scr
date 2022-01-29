@@ -10,11 +10,14 @@
 
 : '
 This script will output
-the square of 10.
+the square of 10. dosnt do decimals.
 '
 
-oper=10
-echo $oper
+oper=10 # set the string
+# echo $oper
 
-((area=$oper*$oper))
-echo $area
+((area=$oper*$oper)) # math operations are done in double brackets
+# echo $area
+
+# display the output
+echo The Square of the number $oper is $area
