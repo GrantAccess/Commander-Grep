@@ -1,0 +1,11 @@
+#!/bin/bash
+: '
+This script will output
+the square of 10.
+'
+
+oper=10
+echo $oper
+
+((area=$oper*$oper))
+echo $area

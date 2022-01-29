@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+unam=$(whoami)
+ls -lhR ~ > ~/$unam-backed_files.txt
+cat ~/$unam-backed_files.txt | less
