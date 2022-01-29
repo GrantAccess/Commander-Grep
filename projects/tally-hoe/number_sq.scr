@@ -1,4 +1,13 @@
 #!/bin/bash
+# Sha-Bang! and path to the shell program
+
+#-----------------------------------------------------------------------#
+#  This routine does the math to:-                                      #
+#    Find the square area of a number.                                  #
+#  By https://github.com/GrantAccess  (CC)                              #
+#      The author has not changed this file since Saturday 29 Jan 2022  #
+#=======================================================================#
+
 : '
 This script will output
 the square of 10.
