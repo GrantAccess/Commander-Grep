@@ -1,7 +1,23 @@
 #!/bin/bash
+# Sha-Bang! and path to the shell program
 
-if [ 'whoami' = "root" ]
-then echo "Hello SuperUser at 'pwd'"
-elif [ 'whoami' = "mb" ]
-then echo "Hello Mike at 'pwd'"
-else echo "Hello Guest at 'pwd'"
+#-----------------------------------------------------------------------#
+#  This routine identifies the user                                     #
+#    and in which directory we are.                                     #
+#  By https://github.com/GrantAccess  (CC)                              #
+#      The author has not changed this file since Monday 31 Jan 2022    #
+#=======================================================================#
+
+# unam=$(whoami)
+# echo $unam
+# the tick ``
+
+# This code snippet is from:-
+# Page 215 of 'Linux in easy steps' by 'Mike McGrath'
+
+if [ `whoami` = "root" ] # if string is same as word
+then echo "Hello SuperUser at `pwd`"
+elif [ `whoami` = "mb" ]
+then echo "Hello Mike at `pwd`"
+else echo "Hello Guest at `pwd`"
+fi # finished with alternatives, the end if statement
